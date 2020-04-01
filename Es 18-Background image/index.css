@@ -1,0 +1,22 @@
+html,
+body {
+  background-color: dodgerblue;
+}
+
+#wrapper {
+  width: 780px;
+  border: 1px solid black;
+  margin: 30px auto;
+  background-color: white;
+  box-shadow: 0 0 20px 7px black;
+  text-align: center;
+}
+
+#imgBox,
+#imgRoll {
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 230px;
+  width: 350px;
+  margin: 10px auto;
+}
