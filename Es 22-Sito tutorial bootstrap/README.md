@@ -3,9 +3,11 @@
 # SOMMARIO:
 Con questo progetto, tramite un tutorial introduttivo a **Bootstrap**, abbiamo creato una pagina che potrebbe essere la home di una pagina web.
 
-# Caratteristiche tecnche:
+# Caratteristiche tecniche:
+[WebsiteSetup - Bootstrap tutorial](https://websitesetup.org/bootstrap-tutorial-for-beginners/).                                       
+Qui potrete trovare tutte le caratteristiche tecniche della pagina realizzata.
 
-# Caratteristiche estetiche:
+# Caratteristiche design:
 Dopo aver terminato il tutorial, ho deciso di apportare varie modifiche alla pagina, cercando di creare un'ipotetica homePage al sio di **Bootstrap**:
 - **Colori**: Ho ripreso i colori principali presenti sul sito di Bootstrap.
 - **Nav-bar**: Sulla sinitra ho inserito il logo di bootstrap, preso nella sezione [icons](https://icons.getbootstrap.com/) del sito, e se lo clicchiamo viene aperta la pagina home di Bootstrap. Sulla destra ho inserito altre sezioni che riportano alle relative pagine all'interno del sito ufficiale di bootstrap.
