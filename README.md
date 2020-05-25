@@ -13,3 +13,4 @@ javascript-playground-Pelissero-Luca created by GitHub Classroom
 - [Es 26 - SetTimeout](https://github.com/vallauri-ict/javascript-playground-Pelissero-Luca/tree/master/Es%2026-SetTimeout)
 - [Es 27 - SetInterval](https://github.com/vallauri-ict/javascript-playground-Pelissero-Luca/tree/master/Es%2027-SetInterval)
 - [Es 28 - Creazione dinamica](https://github.com/vallauri-ict/javascript-playground-Pelissero-Luca/tree/master/Es%2028-CreazioneDinamica)
+- [Es 29 - Gioco del 15](https://github.com/vallauri-ict/javascript-playground-Pelissero-Luca/tree/master/Es%2029-Gioco%20del%2015)
