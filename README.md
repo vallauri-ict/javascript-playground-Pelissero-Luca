@@ -11,3 +11,4 @@ javascript-playground-Pelissero-Luca created by GitHub Classroom
 - [Es 22 - Sito tutorial bootstrap](https://github.com/vallauri-ict/javascript-playground-Pelissero-Luca/tree/master/Es%2022-Sito%20tutorial%20bootstrap)
 - [Es 25 - captcha](https://github.com/vallauri-ict/javascript-playground-Pelissero-Luca/tree/master/Es%2025-captcha)
 - [Es 26 - SetTimeout](https://github.com/vallauri-ict/javascript-playground-Pelissero-Luca/tree/master/Es%2026-SetTimeout)
+- [Es 27 - SetInterval](https://github.com/vallauri-ict/javascript-playground-Pelissero-Luca/tree/master/Es%2027-SetInterval)
