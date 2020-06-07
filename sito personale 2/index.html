@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.0.1">
+  <title>Carousel Template · Bootstrap</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/dist/css/bootstrap.css" rel="stylesheet">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <!---------------------- NAVBAR --------------- -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand"><span style="color: red;">𝘓</span><span style="color: orange;">𝘶</span><span style="color: yellow;">𝘤</span><span style="color: greenyellow;">𝘢</span> <span style="color: lightblue;">𝘗</span><span style="color: #17A2B8;">𝘦</span><span style="color: violet;">𝘭</span><span style="color: red;">𝘪</span><span style="color: orange;">𝘴</span><span style="color: yellow;">𝘴</span><span style="color: greenyellow;">𝘦</span><span style="color: lightblue;">𝘳</span><span style="color: #17A2B8;">𝘰</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Chi">Chi sono</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#dove">Dove abito</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobby">Hobby</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#int">Interessi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#fam">La mia famiglia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#credo">Credo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contatti">Contatti</a>
+          </li>
+        </ul>
+        <a href="main.html">
+          <svg class="bi bi-arrow-left-right" width="2em" height="2em" viewBox="0 0 16 16" fill="white"
+            style="margin-right: 20px;" xmlns="http://www.w3.org/2000/svg">
+            <title>Go to welcam page</title>
+            <path fill-rule="evenodd"
+              d="M10.146 7.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L12.793 11l-2.647-2.646a.5.5 0 010-.708z"
+              clip-rule="evenodd" />
+            <path fill-rule="evenodd"
+              d="M2 11a.5.5 0 01.5-.5H13a.5.5 0 010 1H2.5A.5.5 0 012 11zm3.854-9.354a.5.5 0 010 .708L3.207 5l2.647 2.646a.5.5 0 11-.708.708l-3-3a.5.5 0 010-.708l3-3a.5.5 0 01.708 0z"
+              clip-rule="evenodd" />
+            <path fill-rule="evenodd" d="M2.5 5a.5.5 0 01.5-.5h10.5a.5.5 0 010 1H3a.5.5 0 01-.5-.5z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main role="main">
+    <!----------------- CAROUSEL  ---------------------------------------------- -->
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="5000">
+          <div style="height: 100%; width: 100%; background-image: url(img/montagne.jpg); background-size: cover; background-position: bottom; background-attachment: fixed;"><svg
+              class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img"></svg>
+          </div>
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1 class="h1-carousel">Musica</h1>
+              <p>Il mio svago più grande è la musica...</p>
+              <a href="#elenco"><button type="button" class="btn btn-outline-info btn-lg">More</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="5000">
+          <div
+            style="height: 100%; width: 100%; background-image: url(img/montagne.jpg); background-size: cover; background-position: bottom; background-attachment: fixed;">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img"></svg>
+          </div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="h1-carousel">Progetti futuri</h1>
+              <p>Non ho ancora deciso che cosa fare dopo le scuole superiori. Sicuramente...</p>
+              <a href="#elenco"><button type="button" class="btn btn-outline-info btn-lg">More</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="5000">
+          <div style="height: 100%; width: 100%; background-image: url(img/montagne.jpg); background-size: cover; background-position: bottom; background-attachment: fixed;">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img"></svg>
+          </div>
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1 class="h1-carousel">Scuola</h1>
+              <p>Sono uno studente dell’istituto IIS “G. Vallauri” di Fossano...</p>
+              <a href="#elenco"><button type="button" class="btn btn-outline-info btn-lg">More</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+      ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row" id="elenco">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+            <img src="img/icons8-musica-200.png" style="position: relative; right:70px;">
+          </svg>
+          <h2>Musica</h2>
+          <p id="colorANeive">Il mio svago più grande è la musica. Sul telefono ho una lunga <a
+              href="https://music.apple.com/it/playlist/tutte/pl.u-e98lGdLCzk9dxKP" target="_blank">playlist</a> formata
+            da canzoni di vario genere, partendo dal classico fino ad arrivare al trap
+            americano. La musica per me è una fonte di tranquillità e di
+            rilassamento, infatti molte volte la ascolto dopo aver fatto i compiti o
+            mentre sono sotto la doccia.</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+            <img src="img/icons8-idea-200.png" style="position: relative; right:75px;">
+          </svg>
+          <h2>Progetti futuri</h2>
+          <p>Non ho ancora deciso che cosa fare dopo le scuole superiori, cioè se andare a lavorare o iscrivermi a
+            qualche università per specializzarmi in qualche campo specifico. Nonostante questo dubbio cerco di iniziare
+            a pensarci per farmi qualche idea. Sicuramente da qui alla quinta superiore maturerò ancora e di conseguenza
+            le mie idee ed i miei pensieri cambieranno. Indubbiamente il campo dell’informatica permette sia di poter
+            lavorare dopo il diploma che proseguire gli studi. Se dovessi decidere adesso forse andrei all’università
+            per specializzarmi in un settore preciso dell’informatica.
+          </p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+            <img src="img/icons8-segnalibro-200.png" style="position: relative; right:75px;">
+          </svg>
+          <h2>Scuola</h2>
+          <p id="colorANeive">Sono uno studente dell’istituto <a href="http://www.vallauri.edu/public/ita/pagina.asp" target="_blank">IIS
+              “G. Vallauri” di Fossano</a>, indirizzo informatico. Ho scelto questa scuola perché sono sempre stato
+            appassionato del mondo informatico e dei vari rami riconducibili a questo campo. L’idea di creare qualcosa
+            che potrebbe essere visto da tutti mi incita molto e sono sempre stato curioso di come funzionano Internet,
+            il web e le varie applicazioni.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!--------------------------------------------------- START THE FEATURETTES -->
+
+      <hr class="featurette-divider" id="Chi">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading line anim-typewriter1">Chi sono?</h2>
+          <p class="lead" style="font-size:x-large;">Sono Luca Pelissero, studente dell’istituto IIS “G. Vallauri” di
+            Fossano; indirzzo informatico.
+            Ho 17 anni e vengo da un piccolo paese delle langhe, Neive.
+            Sono un ragazzo vivace, altruista e gentile; con molti interessi ed ambizioni.</p>
+        </div>
+        <div class="col-md-5">
+          <div style="height: 593px; width: 445px; background-image:url(img/ritratto.JPG); margin: 10px;">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+              height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+              role="img" aria-label="Placeholder: 500x500">
+            </svg></div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" id="dove">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading line anim-typewriter2" data-heading="Slide">Dove abito?</h2>
+          <p class="lead" id="colorANeive">Vivo a <a href="http://www.comune.neive.cn.it/it/" target="_blank">Neive</a>, un piccolo paese
+            del Piemonte situato nelle Langhe in provincia di
+            Cuneo, terra del buon vino, delle nocciole e del famosissimo tartufo. Neive è
+            uno dei borghi più belli d’Italia diviso in due parti: Capoluogo e Borgonuovo.</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal"
+            data-target="#exampleModalLong1">
+            More
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+              <div class="modal-content" style="background-color: #343A40; color: white;">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Dove abito?</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>
+                      <p><b style="color:lightskyblue;">Neive Capoluogo</b>: qui si può non notare l’architettura
+                        medievale, fatta di stradine
+                        ciottolate che salgono verso la Torre dell’Orologio e di eleganti palazzi
+                        antichi. È tra le 13 perle del Piemonte. Casa natale di uno dei più grandi
+                        scrittori italiani di epica contadina, Franco Piccinelli.
+                        Dal punto più alto del borgo si ha un’ampia vista delle colline coltivate a vite
+                        (zona produttiva di grandi vini D.O.C e D.O.C.G) e su tutta la catena
+                        delle Alpi Marittime, capitanate dal Monviso.
+                      </p>
+                    </li>
+                    <li>
+                      <p><b style="color:lightskyblue;">Neive Borgonuovo</b>: zona più moderna sia dal punto di vista
+                        storico che strutturale ed
+                        estetico.</p>
+                    </li>
+                  </ul>
+                  All’interno del comune di Neive vi sono moltissime cantine e la famosa distilleria di <a
+                    href="http://www.distilleriaromanolevi.com/" style="color: lightskyblue;">Romano Levi</a> con la sua
+                  “Donna Selvatica” che
+                  scavalica le colline.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                    style="background-color:#17A2B8;">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <div style="height: 295px; width: 445px; background-image:url(img/neive.jpg); margin: 10px;">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+              height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+              role="img" aria-label="Placeholder: 500x500">
+            </svg></div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" id="hobby">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading line anim-typewriter3">Hobby e Sport</h2>
+          <p class="lead">Sono un ragazzo molto vivace e mi è sempre piaciuto fare sport e tenermi in forma.</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal"
+            data-target="#exampleModalLong2">
+            More
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content" style="background-color: #343A40; color: white;">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="exampleModalLongTitle">Hobby e Sport</h4>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h5 style="color:lightskyblue; text-align: center;">Arrampicata:</h5>
+                  <p style="text-align: justify;" id="colorA">
+                    Sono sempre stato, fin da bambino, un ragazzo vivace e “mi arrampicavo” su tutto; per questo motivo
+                    i miei genitori mi hanno soprannominato “scimmia”. Mi è sempre piaciuta l’idea di salire più in alto
+                    possibile per scoprire la sensazione che si prova a stare in alto. Fin dalla mia infanzia ho provato
+                    diversi sport poi, tre anni fa, grazie a mia sorella maggiore, scoprii che nella città di Alba
+                    avevano aperto una palestra di arrampicata: <a href="http://pianetaverticale.it/" target="_blank">Pianeta Verticale</a>. Tre giorni dopo quella bellissima “scoperta”, mio padre
+                    ed io andammo a fare l’iscrizione. <img src="img/arrampicata2.jpg" hspace="10" vspace="10"
+                      align="left"> Ora sono uno dei più bravi della palestra e molto probabilmente inizieremo le gare.
+                    Inoltre, una volta al mese, andiamo ad arrampicare anche su roccia; per adesso l’altezza massima che
+                    ho raggiunto è di 250 metri. Questo sport mi piace moltissimo, ho intenzione di continuare e lo
+                    consiglierei a chiunque perché ci si diverte, si provano sensazioni incredibili, ci sono paesaggi
+                    fantastici e, dopo molta fatica, si conquista la cima…PROVATELO!!!
+                  </p>
+                  <hr class="featurette-divider" style="background-color: white; margin: 30px;">
+                  <h5 style="color:lightskyblue; text-align: center;">Soft-Air:</h5>
+                  <p style="text-align: justify;">
+                    Fin da piccolo mi hanno sempre attirato le armi e tutto ciò che ha a che fare con il mondo militare;
+                    i miei nonni hanno sempre detto che dopo le scuole superiori dovrei entrare nel corpo
+                    dell’aeronautica militare. <img src="img/soft-air.jpg" hspace="10" vspace="10" align="right"> A casa
+                    ho una collezione di armi da soft-air comprendente 2 mitra d’assalto, un fucile da cecchino e 4
+                    pistole di cui una a tamburo. Purtroppo sono andato solo una volta a provare questo sport, era
+                    vicino ad Asti con un gruppo di Torino. Riguardo la passione per le cose “pericolose”, ho anche una
+                    collezione di coltelli iniziata quando avevo 10 anni; ora ne ho più di 90, a partire da lunghezze di
+                    4 cm fino ad arrivare a 30 cm.
+                  </p>
+
+                  <hr class="featurette-divider" style="background-color: white; margin: 30px;">
+
+                  <h5 style="color:lightskyblue; text-align: center;">Altro</h5>
+                  <p>Come ho già accennato precedentemente, durante la mia infanzia ed adolescenza ho provato vari
+                    sport:</p>
+                  <img src="img/karate.JPG" hspace="6" vspace="6" align="right">
+                  <ul class="elenco">
+                    <li>
+                      <p>Un anno di calcio, grazie a mio padrino che allenava la squadra del paese</p>
+                    </li>
+                    <li>
+                      <p>6 anni di nuoto tra cui anche 2 gare, ma ho smesso perché, diventando bravi, il tutto era molto
+                        impegnativo</p>
+                    </li>
+                    <li>
+                      <p>Un anno di tiro con l’arco</p>
+                    </li>
+                    <li>
+                      <p>3/4 anni di Karate</p>
+                    </li>
+                    <li>
+                      <p>Qualche lezione di basket</p>
+                    </li>
+                    <li>
+                      <p>Qualche lezione di Hip-pop</p>
+                    </li>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn" data-dismiss="modal"
+                    style="background-color: #17A2B8;">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div style="height: 411px; width: 445px; background-image:url(img/arrampicata.jpg); margin: 10px;">
+              <svg class=" bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+            role="img" aria-label="Placeholder: 500x500">
+            </svg></div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" id="int">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading line anim-typewriter4">Interessi e Passatempi</h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal"
+            data-target="#exampleModalLong3">
+            More
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content" style="background-color: #343A40; color: white;">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Interessi e Passatempi</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <!-- ----------------------------- CALCIO -->
+                  <h5 style="color:lightskyblue; text-align: center;">Calcio</h5>
+                  <p style="text-align: justify;">
+                    Uno degli interessi che ho è il calcio, trasmessomi da mio padre che è tifoso del <a
+                      href="http://torinofc.it/" style="color: #6CC9FA;">Torino</a>. Mi piace guardare le partite con
+                    mio padre e mia sorella perché le commentiamo, ci scambiamo idee e ogni tanto mio padre, quando i
+                    giocatori sbagliano, fa qualche battuta divertente, tipo: “ha i piedi che sembrano dei ferri da
+                    stiro” o “corre come se avesse una lavatrice sulla schiena, talmente va piano”.
+                  </p>
+                  <hr class="featurette-divider" style="background-color: white; margin: 30px;">
+                  <!-- -----------------------MONTAGNA -->
+                  <h5 style="color:lightskyblue; text-align: center;">Montagna</h5>
+                  <p style="text-align: justify;">
+                    Una delle mie più grandi passioni, legata anche allo sport che faccio, è la montagna. Fin da bambino
+                    mi è sempre piaciuto andarci e solo da pochi anni i miei nonni hanno comprato una casa a
+                    Pontechianale. Tra i più bei ricordi che ho ci sono le giornate con i nonni e i miei genitori
+                    dove,<img src="img/ponte.JPG" hspace="5" vspace="5" align="right"> appena arrivati, mio nonno tirava
+                    subito fuori un panino di salame e poi iniziavamo a giocare a carte. Inoltre mi ha sempre
+                    appassionato camminare, andare nei rifugi e raggiungere meravigliosi laghi e vette. Per di più,
+                    grazie a mio padre, io e mia sorella abbiamo coltivato l’interesse per lo sci da discesa. Come se
+                    non bastasse io e mio padre, ormai da qualche anno, ci siamo appassionati anche delle vie ferrate,
+                    di conseguenza quando siamo in montagna, ne facciamo alcune. Ovviamente, come si è già potuto
+                    capire, io e la mia famiglia facciamo parte di quelle persone a cui non bisogna neanche porre la
+                    domanda: “preferite la montagna o il mare?”.
+                  </p>
+                  <hr class="featurette-divider" style="background-color: white; margin: 30px;">
+                  <!-- -----------------------STRUMENTI MUSICALI -->
+                  <h5 style="color:lightskyblue; text-align: center;">Strumenti musicali</h5>
+                  <p style="text-align: justify;">
+                    la musica, oltre che ascoltarla, mi piace anche suonarla. Tramite il papà di una mia amica che è
+                    musicista, ho frequentato un corso di chitarra per quasi 3 anni con il saggio musicale ogni fine
+                    anno; inoltre suonavamo in altre occasioni tipo alla Casa di Riposo del paese e alla Messa di
+                    Natale. <img src="img/chitarra.jpg" hspace="5" vspace="5" align="left">La chitarra è uno strumento
+                    completo e divertente.
+                    Alle scuole medie ho provato anche la batteria che è uno strumento molto bello con il quale ti puoi
+                    divertire molto e il flauto che non mi entusiasmava ma ero obbligato a suonarlo.
+                    Anche alle scuole medie facevamo dei saggi di fine anno organizzati dai professori, alla presenza
+                    dei nostri genitori.
+                    In conclusione posso dire che suonare uno strumento può essere molto utile per imparare ad avere
+                    ritmo e può essere anche un modo di divertirsi con gli amici.
+                  </p>
+                  <hr class="featurette-divider" style="background-color: white; margin: 30px;">
+                  <!-- -----------------------MOTO -->
+                  <h5 style="color:lightskyblue; text-align: center;">Moto</h5>
+                  <p style="text-align: justify;">
+                    Un’altra passione che ho maturato soprattutto nell’ultimo anno è la moto. Da quando avevo 14 anni
+                    guido la moto; inizialmente avevo una Beta 50cc da enduro con la quale mi piaceva andare in collina
+                    a fare cross. Compiuti 16 anni ho preso la patente per il 125cc. <img src="img/moto2.JPG" hspace="5"
+                      vspace="5" align="right">Ora ho un’<a
+                      href="https://www.honda.it/motorcycles/range/street/cb125r/overview.html" target="_blank"
+                      style="color: #6CC9FA;">Honda CBR 125cc</a>, con la quale mi diverto un sacco e sono riuscito ad
+                    influenzare anche i miei genitori. Ora anche a loro piace moltissimo andare in moto. A volte,
+                    soprattutto nelle vacanze, andiamo a fare giri in moto in alta langa, in montagna, al mare…ecc.
+                    Andando in moto si prova un senso di libertà e, dal punto di vista naturalistico, si vedono molte
+                    più cose che in macchina. Consiglierei a tutti la moto anche perché, partecipando a raduni o
+                    unendosi a gruppi motociclistici, è un modo per conoscere nuove persone.
+                  </p>
+                  <hr class="featurette-divider" style="background-color: white; margin: 30px;">
+                  <!-- -----------------------CAMPAGNA -->
+                  <h5 style="color:lightskyblue; text-align: center;">CAMPAGNA</h5>
+                  <p style="text-align: justify;">
+                    Un altro dei tanti interessi che ho, è la campagna. Fin da piccolo mi è sempre piaciuto aiutare i
+                    miei nonni, soprattutto nel periodo dove bisogna raccogliere le nocciole.<img src="img/campagna.PNG"
+                      hspace="5" vspace="5" align="left"> Sono sempre stato volenteroso nell’aiutarli. Specialmente i
+                    miei nonni, mi hanno insegnato “il mestiere”: guidare il trattore, usare i vari attrezzi per la
+                    campagna, fare l’orto nel periodo giusto…ecc. Molto probabilmente, quando loro non potranno più
+                    lavorarla la lasceranno a mio padre e poi a me. Inoltre, quando aiutavo i miei nonni, a fine
+                    giornata, mi pagavano sempre; la cosiddetta “paghetta”.
+                  </p>
+                  <hr class="featurette-divider" style="background-color: white; margin: 30px;">
+                  <!-- -----------------------FILM -->
+                  <h5 style="color:lightskyblue; text-align: center;">Film</h5>
+                  <p style="text-align: justify;" id="colorA">
+                    Un altro interesse che ho sempre avuto è quello per i film. Questa passione è nata anche grazie ai
+                    miei genitori perché, per la mia famiglia, guardare un film è anche un bel modo per stare tutti
+                    insieme. Ho potuto guardare dei grandi classici come: <a href="img/rocky.jpg"
+                      target="framefilm">Rocky</a>, <a href="img/rambo.jpg" target="framefilm">Rambo</a>, <a
+                      href="img/codicedon.jpg" target="framefilm">Codice d’onore</a>, <a href="img/verde.jpg"
+                      target="framefilm">Il miglio verde</a>, <a href="img/vi-presento-joe-black.jpg"
+                      target="framefilm">Vi presento Joe Black</a>, <a href="img/armaletale.jpg" target="framefilm">Arma
+                      letale</a>, <a href="img/trilogia-del-dollaro.jpg" target="framefilm">La trilogia del dollaro</a>,
+                    <a href="img/forrest.jpg" target="framefilm">Forrest Gump</a>, <a href="img/starwars.jpg"
+                      target="framefilm">Star Wars</a>, <a href="img/Indiana-Jones.jpg" target="framefilm">Indiana
+                      Jones</a>…e tanti altri.
+                    Attraverso i film si possono scoprire molte cose e si può ampliare la sfera della conoscenza. Il
+                    mondo del cinema è vastissimo e bellissimo!!!
+                  </p>
+                  <iframe name="framefilm" id="framefilm"
+                    style="background-image: url(img/film.jpg); background-position: center; width: 260px; height: 410px;"
+                    hspace="3px" vspace="3px"></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                    style="background-color: #17A2B8;">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <div style="height: 381px; width: 445px; background-image:url(img/moto.JPG); margin: 10px;">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+              height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+              role="img" aria-label="Placeholder: 500x500">
+            </svg></div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" id="fam">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading line anim-typewriter5">La mia famiglia</h2>
+          <p class="lead">La mia famiglia è composta da 5 persone: le mie sorelle Chiara e Nimbra, mio
+            padre Pierpaolo, mia madre Emanuela ed io.</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal"
+            data-target="#exampleModalLong4">
+            More
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content" style="background-color: #343A40; color: white;">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">La mia famiglia</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <!-- -----------------------COMPONENTI -->
+                  <h5 style="color:lightskyblue; text-align: center;">Componenti</h5>
+                  <p style="text-align: justify;" id="colorA">
+                    La mia famiglia è composta da 5 persone: le mie sorelle Chiara e Nimbra, mio padre Pierpaolo, mia
+                    madre Emanuela ed io. Mia sorella Chiara ha 18 anni e frequenta la quinta superiore alla scuola
+                    I.I.S “Luigi Einaudi” di Alba, indirizzo Ragioneria. È una delle migliori della scuola e molto
+                    probabilmente continuerà a studiare iscrivendosi all’università. Lei è simpatica, generosa, brava e
+                    volenterosa. Mia sorella Nimbra ha 7 anni e frequenta la Seconda Elementare; vi darò qualche
+                    informazione in più su di lei nel paragrafo successivo. Mia madre ha 41 anni e lavora nel Comune di
+                    Santo Stefano Belbo, nell’ufficio ragioneria. Lei è simpatica, ogni tanto non andiamo d’accordo ma
+                    risolviamo subito la questione. Mio padre ha 51 anni ed è uno dei dirigenti della Ferrero di Alba, è
+                    il responsabile di un laboratorio di ricerca ed in particolare il suo lavoro è quello di
+                    “assaggiatore”: quando fanno una crema o un dolce nuovo, deve valutare se va bene oppure no. E’
+                    molto organizzato in tutto quello che fa ed è simpatico. Fortunatamente ho ancora tutti e 4 i nonni
+                    materni e paterni e fino a poco tempo fa avevo ancora una nonna bis.
+                  </p>
+                  <hr class="featurette-divider" style="background-color: white; margin: 30px;">
+                  <!-- -----------------------NIMBRA -->
+                  <h5 style="color:lightskyblue; text-align: center;">Nimbra</h5>
+                  <p style="text-align: justify;">
+                    In questo paragrafo vi volevo parlare di mia sorella Nimbra che, come avrete già notato, ha un nome
+                    che non si sente tutti i giorni. E’ una bambina di origine pakistana nata in Italia, che abbiamo in
+                    affidamento; per chi non sapesse cosa vuol dire prendere in affidamento una bambina/o, vuol dire
+                    prendersi cura di lei/lui fino a quando la situazione in famiglia non si è ristabilita. <img
+                      src="img/nimbra.jpeg" hspace="5" vspace="5" align="right">Quando è arrivata nella nostra famiglia
+                    aveva 1 anno e mezzo ed ora ha 7 anni. È una bambina molto brava, vivace, simpatica, volenterosa,
+                    generosa ed intelligente. Io e lei andiamo molto d’accordo, ogni tanto fa qualche capriccio ma è
+                    comunque brava. Il suo vero nome è Rezie ma, fin dalla nascita, i suoi genitori l’hanno chiamata
+                    Nimbra. Prima che venisse da noi viveva in una Comunità per minori insieme alle due sorelle più
+                    grandi. Tramite la Comunità che la segue vede i suoi genitori una volta al mese in un luogo neutro.
+                    La mia famiglia ed io siamo molto felici di prenderci cura di Nimbra perché, oltre a farle del bene,
+                    lei, indirettamente fa del bene a noi (in senso spirituale).
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                    style="background-color: #17A2B8;">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div style="height: 333px; width: 445px; background-image:url(img/nonni.jpeg); margin: 10px;">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+              height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+              role="img" aria-label="Placeholder: 500x500"></svg>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" id="credo">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading line anim-typewriter6" data-heading="Slide">Credo</h2>
+          <p class="lead">La mia è una famiglia di religione cristiana. Fin da piccolo i miei genitori mi hanno
+            trasmesso i valori della fede, mi hanno insegnato a pregare e a partecipare alle celebrazioni eucaristiche,
+            soprattutto nei tempi “forti” dell’anno liturgico. In particolare la Settimana Santa che precede la Pasqua
+            con tutte le sue funzioni e il tempo di attesa dell’Avvento che precede il Natale.</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal"
+            data-target="#exampleModalLong5">
+            More
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content" style="background-color: #343A40; color: white;">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Credo</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <!-- -----------------------CARITA' -->
+                  <h5 style="color:lightskyblue; text-align: center;">Carità</h5>
+                  <p style="text-align: justify;" id="colorA">
+                    Da sempre la mia famiglia mi ha educato all’attenzione verso i poveri, i bisognosi e le persone che
+                    possono necessitare di diversi tipi di aiuto. Da tempo collaboriamo con il responsabile di una Casa
+                    Famiglia di Narzole che fa parte della comunità <a
+                      href="https://www.apg23.org/?gclid=EAIaIQobChMI6ffUiOGD5wIVFs93Ch3XGQx2EAAYASAAEgLVCfD_BwE"
+                      target="_blank">Papa Giovanni XXiii</a>. Casa nostra è un punto di raccolta per diversi tipi di
+                    necessità: alimentari, vestiario, mobili, giochi per bambini, ecc…Nel tempo abbiamo coinvolto
+                    diverse persone del mio paese che ci aiutano a reperire quanto serve. Inoltre tramite l’associazione
+                    <a href="https://adozioneadistanza.actionaid.it/actionaid/2020_AR_GOM123F?gclid=EAIaIQobChMItv7bteCD5wIVVIfVCh3CnwWfEAAYASAAEgKd-fD_BwE"
+                      target="_blank">Actionaid</a>, da parecchi anni abbiamo in adozione a distanza una bambina
+                    vietnamita di nome Thieng che sosteniamo con una quota mensile.
+                  </p>
+                  <hr class="featurette-divider" style="background-color: white; margin: 30px;">
+                  <!-- -----------------------GAM -->
+                  <h5 style="color:lightskyblue; text-align: center;">GAM</h5>
+                  <p style="text-align: justify;" id="colorA">
+                    Il <a href="https://www.cenacologam.it/" target="_blank">GAM</a> (Gioventù Ardente Mariana), è un
+                    movimento fondato da un sacerdote di Torino, Don Carlo De Ambrogio. Ho iniziato a frequentare questo
+                    gruppo da piccolo insieme a mia sorella ed i miei genitori. <img src="img/gam.jpg" hspace="5"
+                      vspace="5" align="right">Nel tempo questo movimento ha iniziato a differenziare i gruppi in base
+                    all’età ed ora, insieme a mia sorella, partecipo a quello dedicato alla nostra fascia di età che si
+                    tiene il martedì sera. Durante i nostri incontri meditiamo la parola di Dio, recitiamo il rosario,
+                    assistiamo a testimonianze, condividiamo le nostre esperienze e accogliamo i giovani che decidono di
+                    iniziare questo cammino.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                    style="background-color:#17A2B8;">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 order-md-1 size">
+          <div style="height: 433px; width: 300px; background-image:url(img/credo.jpg);">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="300"
+              height="433" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+              role="img">
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" id="hobby">
+
+      <!-- /END THE FEATURETTES----------------------------------------------------------------------------------------- -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER ----------------------------------------------->
+    <footer class="container" id="contatti">
+
+      <ul class="list-socials hidden-sm-down">
+        <li>
+          <a href="https://www.facebook.com/luca.pelissero.169/" rel="external" target="_blank">
+            <i class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="30" viewBox="0 0 6.24 13">
+                <title>Facebook</title>
+                <path
+                  d="M1.59,13V6.9H0V4.71H1.59V2.83A2.77,2.77,0,0,1,4.7,0,13,13,0,0,1,6.23.09L6.17,2.14H4.79c-.78,0-.91.36-.91,1v1.6H6.24l-.1,2.2H3.88V13Z">
+                </path>
+              </svg>
+            </i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/_lucapel_/?hl=it" rel="external" target="_blank">
+            <i class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 13.39 13.39">
+                <title>Instagram</title>
+                <path
+                  d="M13.35,9.45A4.91,4.91,0,0,1,13,11.08a3.42,3.42,0,0,1-2,2,4.91,4.91,0,0,1-1.62.31c-.71,0-.94,0-2.76,0s-2,0-2.76,0A4.91,4.91,0,0,1,2.31,13a3.28,3.28,0,0,1-1.19-.77,3.28,3.28,0,0,1-.77-1.19A4.91,4.91,0,0,1,0,9.45c0-.71,0-.94,0-2.76s0-2,0-2.76A4.91,4.91,0,0,1,.35,2.31a3.28,3.28,0,0,1,.77-1.19A3.28,3.28,0,0,1,2.31.35,4.91,4.91,0,0,1,3.93,0c.71,0,.94,0,2.76,0s2,0,2.76,0a4.91,4.91,0,0,1,1.62.31,3.28,3.28,0,0,1,1.19.77A3.28,3.28,0,0,1,13,2.31a4.91,4.91,0,0,1,.31,1.62c0,.71,0,.94,0,2.76S13.38,8.74,13.35,9.45ZM12.14,4a3.7,3.7,0,0,0-.23-1.24,2.07,2.07,0,0,0-.5-.77,2.07,2.07,0,0,0-.77-.5A3.7,3.7,0,0,0,9.4,1.24c-.71,0-.92,0-2.7,0s-2,0-2.7,0a3.7,3.7,0,0,0-1.24.23A2.07,2.07,0,0,0,2,2a2.08,2.08,0,0,0-.5.77A3.7,3.7,0,0,0,1.25,4c0,.71,0,.92,0,2.7s0,2,0,2.7a3.7,3.7,0,0,0,.23,1.24,2.08,2.08,0,0,0,.5.77,2.07,2.07,0,0,0,.77.5A3.7,3.7,0,0,0,4,12.14c.71,0,.92,0,2.7,0s2,0,2.7,0a3.7,3.7,0,0,0,1.24-.23,2.22,2.22,0,0,0,1.27-1.27,3.7,3.7,0,0,0,.23-1.24c0-.71,0-.92,0-2.7S12.17,4.69,12.14,4Zm-1.88-.06a.8.8,0,1,1,.8-.8A.8.8,0,0,1,10.27,3.92ZM6.69,10.13a3.44,3.44,0,1,1,3.44-3.44A3.44,3.44,0,0,1,6.69,10.13Zm0-5.67A2.23,2.23,0,1,0,8.92,6.69,2.23,2.23,0,0,0,6.69,4.46Z">
+                </path>
+              </svg>
+            </i>
+          </a>
+        </li>
+        <li>
+          <a href="form email/index.html" rel="external" target="_blank">
+            <svg class="bi bi-envelope-fill" width="30" height="30" viewBox="0 0 16 16" fill="black"
+              xmlns="http://www.w3.org/2000/svg" style="margin-top: 5px;">
+              <title>Gmail</title>
+              <path
+                d="M.05 3.555L8 8.414l7.95-4.859A2 2 0 0014 2H2A2 2 0 00.05 3.555zM16 4.697l-5.875 3.59L16 11.743V4.697zm-.168 8.108L9.157 8.879 8 9.586l-1.157-.707-6.675 3.926A2 2 0 002 14h12a2 2 0 001.832-1.195zM0 11.743l5.875-3.456L0 4.697v7.046z" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <!-- <p class="float-right arrow"><a href="#"><svg class="bi bi-arrow-up-short" width="5em" height="5em"
+            viewBox="0 0 16 16" fill="black" xmlns="http://www.w3.org/2000/svg"
+            style="position: relative; bottom: 10px">
+            <path fill-rule="evenodd" d="M8 5.5a.5.5 0 01.5.5v5a.5.5 0 01-1 0V6a.5.5 0 01.5-.5z" clip-rule="evenodd" />
+            <path fill-rule="evenodd"
+              d="M7.646 4.646a.5.5 0 01.708 0l3 3a.5.5 0 01-.708.708L8 5.707 5.354 8.354a.5.5 0 11-.708-.708l3-3z"
+              clip-rule="evenodd" />
+          </svg></a>
+      </p> -->
+      <a href="#"><span class="arrow arrow-top"><title>Back to top</title></span></a>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+  <script src="assets/dist/js/bootstrap.bundle.js"></script>
+
+  <!-- effetto navBar -->
+</body>
+
+</html>
